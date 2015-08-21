@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Learning jQuery</title>
+
+	<!-- Metas -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Get jQuery -->
+	<script type="text/javascript" src="jquery.min.js"></script>
+
+	<!-- CSS -->
+	<style>
+
+		.redSquare {
+
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			margin: 10px;
+
+		}
+
+		.greenCircle {
+
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+			background-color: green;
+			margin: 10px;
+
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="redSquare"></div>
+
+	<div class="redSquare"></div>
+
+	<div class="greenCircle"></div>
+
+	<script>
+
+		$("div").click(function() {
+
+			alert('Item clicked')
+
+		});
+
+	</script>
+
+
+</body>
+</html>
